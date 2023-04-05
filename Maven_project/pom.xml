@@ -30,7 +30,7 @@
             <configuration>
                 <archive>
                     <manifest>
-                        <mainClass>com.example.MainClass</mainClass>
+                        <mainClass>com.capg.jenkins.Demo</mainClass>
                     </manifest>
                 </archive>
             </configuration>
