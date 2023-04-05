@@ -19,5 +19,11 @@ public class JenkinsCalcTest {
 		Demo mycalc=new Demo();
 		assertEquals(5,mycalc.substractNumbers(10, 5));
 	}
+	
+	@Test
+	public void subtest1() {
+		Demo mycalc=new Demo();
+		assertEquals(3,mycalc.substractNumbers(8, 5));
+	}
 
 }
