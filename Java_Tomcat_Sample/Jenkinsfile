@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build Application') {
             steps {
-                sh 'mvn clean package'
+                sh 'C:\Users\korkeert\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin\mvn clean package'
             }
             post {
                 success {
